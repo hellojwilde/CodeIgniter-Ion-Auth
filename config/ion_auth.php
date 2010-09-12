@@ -99,6 +99,12 @@
 	$config['email_templates']     = 'auth/email/';
 	
 	/**
+	 * Type of email to send (HTML or text)
+	 * Default : html
+	 **/
+	$config['email_type'] 		= 'html';
+
+	/**
 	 * activate Account Email Template
      * Default : activate.tpl.php
 	 **/
